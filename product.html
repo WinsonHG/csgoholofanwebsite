@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Rajdhani:600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <title>Product Page</title>
+  </head>
+  <body>
+    <section class="header">
+      <header id="header">
+        <div class="headertitle">
+          Katowice <span class="csgoblue">2014</span> Holo
+          <span class="csgoblue">Stickers</span>
+        </div>
+        <nav id="nav-bar">
+          <img id="header-img" src="./img/LOGO.png" />
+          <ul>
+            <li><a class="nav-link" href="#features">Features</a></li>
+            <li>
+              <a class="nav-link" href="#How_It_Works">Video Demonstration</a>
+            </li>
+            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+          </ul>
+        </nav>
+      </header>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input
+          id="email"
+          type="email"
+          placeholder="Enter your email address"
+          name="email"
+          required
+        />
+        <div></div>
+        <input id="submit" type="submit" class="button" value="Get Started" />
+      </form>
+    </section>
+
+    <section id="features">
+      <div>
+        <span class="spanheading">Holographic Appearance:</span>
+        <p>
+          <img src="./img/holo.webp" class="icon" />
+          Holo stickers have a shimmering, holographic effect that makes them
+          stand out on your weapon skin. This effect can add an element of
+          rarity and uniqueness to the skin.
+        </p>
+      </div>
+      <div>
+        <span class="spanheading">Rarity:</span>
+        <p>
+          <img src="./img/gamblr.png" class="icon" /> Holo stickers are
+          considered more rare and desirable than regular stickers due to their
+          distinctive appearance. They are often associated with special events,
+          major tournaments, or limited-time offers, making them sought after by
+          collectors and players.
+        </p>
+      </div>
+      <div>
+        <span class="spanheading">Trading and Collecting:</span>
+        <p>
+          <img src="./img/trade.jpg" class="icon" />
+          Due to their rarity and popularity, holo stickers are often used in
+          trading within the CS:GO community. Some players collect rare and
+          valuable stickers as a form of in-game investment.
+        </p>
+      </div>
+    </section>
+
+    <section id="How_It_Works">
+      <iframe
+        id="video"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/9zw2JHvPYvE?si=5UwtSv3pVsbHG8TF"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </section>
+
+    <section id="pricing">
+      <div class="options">
+        <header class="titan">Sticker | Titan (Holo) | Katowice 2014</header>
+        <img src="./img/titan_holo_large.webp" />
+        <p>$92,876.28 - $100,000.00</p>
+        <button class="buybutton">Submit</button>
+      </div>
+      <div class="options">
+        <header class="ibp">Sticker | iBUYPOWER (Holo) | Katowice 2014</header>
+        <img src="./img/ibuypower_holo_large.webp" />
+        <p>$80,774.33 - $100,000.00</p>
+        <button class="buybutton">Submit</button>
+      </div>
+      <div class="options">
+        <header class="navi">
+          Sticker | Natus Vincere (Holo) | Katowice 2014
+        </header>
+        <img src="./img/navi_holo_large.webp" />
+        <p>$10,888.00 - $22,253.76</p>
+        <button class="buybutton">Submit</button>
+      </div>
+    </section>
+    <div class="temp"></div>
+  </body>
+</html>
