@@ -1,2 +1,0 @@
-# csgoholofanwebsite
-fcc productpage project
